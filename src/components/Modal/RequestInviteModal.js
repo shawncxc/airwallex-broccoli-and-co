@@ -57,19 +57,24 @@ export default function RequestInviteModal({ open, toggleModal }) {
     sendInvite(name, email, setStatus, setErr);
   });
 
+  const closeAndReset = useCallback(() => {
+    setDisplaySuccessFlag(initialDisplaySuccessFlag);
+    setStatus(initialStatus);
+    setData(initialData);
+    setErr(initialErr);
+    toggleModal();
+  });
+
   if (displaySuccessFlag) {
     return (
       <Modal
         open={ open }
         title={ `All done` }
-        close={() => {
-          setData(initialData);
-          toggleModal();
-        }}
+        close={ closeAndReset }
       >
         <div>You will be one of the first to experience</div>
         <div>Broccoli &amp; Co. when we launch.</div>
-        <button className={ styles.sendBtn } onClick={ toggleModal }>OK</button>
+        <button className={ styles.sendBtn } onClick={ closeAndReset }>OK</button>
       </Modal>
     ); 
   }
@@ -78,10 +83,7 @@ export default function RequestInviteModal({ open, toggleModal }) {
     <Modal
       open={ open }
       title={ `Request an invite` }
-      close={() => {
-        setData(initialData);
-        toggleModal();
-      }}
+      close={ closeAndReset }
     >
       <input
         className={ styles.input }
@@ -115,8 +117,7 @@ export default function RequestInviteModal({ open, toggleModal }) {
       </button>
       {
         err && err.length ?
-        <div className={ styles.err }>{ err }</div>
-        : ""
+        <div className={ styles.err }>{ err }</div> : <div className={ styles.errPlaceholder }></div>
       }
     </Modal>
   );

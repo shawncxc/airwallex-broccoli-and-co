@@ -23,3 +23,7 @@
   padding: 0.5rem;
   color: red;
 }
+
+.errPlaceholder {
+  height: 30px;
+}
