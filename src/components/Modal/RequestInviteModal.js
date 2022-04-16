@@ -69,7 +69,7 @@ export default function RequestInviteModal({ open, toggleModal }) {
     return (
       <Modal
         open={ open }
-        title={ `All done` }
+        title={ `All done!` }
         close={ closeAndReset }
       >
         <div>You will be one of the first to experience</div>
