@@ -1,0 +1,50 @@
+:root {
+  --primary-font-color-0: rgb(25, 25, 25);
+  --primary-font-color-1: rgb(75, 75, 75);
+  --primary-font-color-2: rgb(150, 150, 150);
+  --primary-font-color-3: rgb(200, 200, 200);
+
+  --border-color-0: rgb(50, 50, 50);
+  --border-color-1: rgb(120, 120, 120);
+  --border-color-2: rgb(170, 170, 170);
+  --border-color-3: rgb(220, 220, 220);
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

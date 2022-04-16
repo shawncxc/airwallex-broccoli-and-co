@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 4rem;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px solid var(--border-color-2);
+  font-size: .75rem;
+  color: var(--primary-font-color-2);
+}

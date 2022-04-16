@@ -1,0 +1,41 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: var(--primary-font-color-2);
+}
+
+.invite {
+  padding: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  color: var(--primary-font-color-2);
+  background-color: white;
+  border: 1.5px solid var(--border-color-1);
+}
+
+.invite:hover {
+  color: var(--primary-font-color-1);
+  border: 1.5px solid var(--border-color-0);
+  background-color: #e4e4e4;
+}

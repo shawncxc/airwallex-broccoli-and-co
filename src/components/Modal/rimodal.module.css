@@ -1,0 +1,25 @@
+.input {
+  border-radius: 0;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: 1px solid var(--border-color-2);
+}
+
+.input:focus-visible {
+  border: 1.5px solid var(--border-color-0);
+  outline: none;
+}
+
+.sendBtn {
+  padding: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.err {
+  font-size: 0.75rem;
+  padding: 0.5rem;
+  color: red;
+}
