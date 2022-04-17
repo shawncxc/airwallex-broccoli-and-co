@@ -8,7 +8,7 @@ Broccoli &amp; Co. delivers the freshest broccoli in the world to you
 
 ![Success popup](./screenshots/3.png)
 
-![Mobile friendly](./screenshots/3.png)
+![Mobile friendly](./screenshots/4.png)
 
 ## To setup
 
