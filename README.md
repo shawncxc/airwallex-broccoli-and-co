@@ -2,11 +2,11 @@
 
 Broccoli &amp; Co. delivers the freshest broccoli in the world to you
 
-[<img src="./screenshots/1.png" width="400"/>](./screenshots/1.png)
+[<img src="./screenshots/1.png" width="416"/>](./screenshots/1.png)
 
-[<img src="./screenshots/2.png" width="400"/>](./screenshots/2.png)
+[<img src="./screenshots/2.png" width="416"/>](./screenshots/2.png)
 
-[<img src="./screenshots/3.png" width="400"/>](./screenshots/3.png)
+[<img src="./screenshots/3.png" width="416"/>](./screenshots/3.png)
 
 [<img src="./screenshots/4.png" />](./screenshots/4.png)
 
