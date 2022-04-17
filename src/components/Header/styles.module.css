@@ -8,3 +8,9 @@
   font-weight: bold;
   color: var(--primary-font-color-1);
 }
+
+.logo {
+  height: 2rem;
+  width: 2rem;
+  margin: 0 0.5rem;
+}
